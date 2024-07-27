@@ -16,8 +16,8 @@ export function comprarCommand(ctx: Context) {
     intent: 'sale',
     payer: { payment_method: 'paypal' },
     redirect_urls: {
-      return_url: 'https://61e4-2800-bf0-3010-1000-c8c-761b-d385-359e.ngrok-free.app/success',
-      cancel_url: 'https://61e4-2800-bf0-3010-1000-c8c-761b-d385-359e.ngrok-free.app/cancel'
+      return_url: 'https://pruebabottelegram-vexcel-prueba.onrender.com/success',
+      cancel_url: 'https://pruebabottelegram-vexcel-prueba.onrender.com/cancel'
     },
     transactions: [{
       item_list: {
